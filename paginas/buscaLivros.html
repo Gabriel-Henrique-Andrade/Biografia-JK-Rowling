@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Livros da J.K. Rowling</title>
+  <link rel="stylesheet" href="../estilo/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Biografia de J. K. Rowling</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" target="_blank">Biografia</a> 
+        <a href="controversias.html" target="_blank">Controvérsias</a>
+        <a href="curiosidades.html" target="_blank">Curiosidades</a>
+        <a href="buscaLivros.html" target="_blank">Buscar Livros</a>
+    </nav>
+
+  <div class="buscaContainer">
+      <input type="text" id="caixaBusca" placeholder="Digite o título do livro...">
+      <button onclick="buscarLivros()">Buscar</button>
+      <ul id="listaLivros"></ul>
+  </div>
+
+  <script src="scripts.js"></script>
+  
+</body>
+</html>
